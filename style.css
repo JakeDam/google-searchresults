@@ -1,0 +1,22 @@
+* {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #202124;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+#top-header {
+    height: 65px;
+    display: block;
+}
