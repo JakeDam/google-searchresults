@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+span{
+    color: #70757a;
+}
+
 a:visited {
     text-decoration: none;
 }
@@ -94,11 +98,15 @@ a:visited {
     position: absolute;
     margin-right: 20px;
     right: 0;
+    display: flex;
+    vertical-align: center;
+    gap: 10px;
 }
 
 #apps-icon {
     height: 25px;
     width: 25px;
+    padding-top: 5px;
 }
 
 #sign-in {
@@ -116,4 +124,64 @@ a:visited {
     border-radius: 4px;
     box-sizing: border-box;
     outline: none;
+}
+
+#lower-header {
+    padding-left: 175px;
+    display: flex;
+    height: 48px;
+    background: #fff;
+    color: #70757a;
+    font-size: 13px;
+    border-bottom: 1px solid #ebebeb;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    gap: 20px;
+}
+
+#nav-icon {
+    display: flex;
+    gap: 10px;
+    height: 16px;
+    line-height: 16px;
+    margin-left: 100px;
+    color: #70757a;
+    align-items: center;
+}
+
+#all-icon {
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 18px;
+    padding-right: 5px;
+
+}
+
+#news-icon{
+    height: 14px;
+    padding-right: 5px;
+    background-color: transparent;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+#shopping-icon {
+    height: 14px;
+    padding-right: 5px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+#videos-icon {
+    height: 14px;
+    padding-right: 5px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+#more-icon {
+    height: 10px;
+    padding-right: 5px;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
